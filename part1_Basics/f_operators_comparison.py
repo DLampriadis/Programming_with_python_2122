@@ -53,7 +53,7 @@ print(result)
 result = text_value_a != text_value_b
 print('Are they different?')
 print(result)
-
+'\n'
 
 
 # Lastly, operators dealing with diferences ( < | <= | > | >=)
@@ -75,4 +75,3 @@ print(result)
 result = text_value_a <= text_value_d
 print('Is text value a lower or equal to text value b?:')
 print(result)
-

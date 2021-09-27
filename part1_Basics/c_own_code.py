@@ -23,4 +23,9 @@ import sys
 sys.stdout.write("This is my new text \n\n")
 sys.stdout.write("Header section using '#' characters\n")
 sys.stdout.write("library section using import/from ... import commands\n")
-sys.stdout.write("Code section calling the 'sys' library to show you this text\n")
+sys.stdout.write("Code section calling the 'sys' library to show you this text\n\n")
+
+k_a = 5
+a_b = 7
+fruits = k_a + a_b
+print(fruits)
