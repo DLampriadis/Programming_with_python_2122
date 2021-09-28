@@ -42,14 +42,14 @@ city_4_unemployment_rate = 2.82
 # note: Mind the indented structure of if clauses. It matters!!!!
 
 # - if - clauses serve for testing conditions to trigger actions if it is true
-if city_1_population > city_2_population:
-    result = city_1_name + ' is bigger than ' + city_2_name
+if city_2_population > city_4_population:
+    result = city_2_name + ' is bigger than ' + city_4_name
     print(result)
 
 # - if else - clauses serve for testing conditions and trigger an action whether if it is true or not
 print('.......................')
-if city_2_unemployment_rate > city_3_unemployment_rate:
-    result = city_2_name + ' has a higher unemployment rate than ' + city_3_name
+if city_4_unemployment_rate < city_1_unemployment_rate:
+    result = city_1_name + ' has a higher unemployment rate than ' + city_4_name
 else:
     result = city_3_name + ' has a higher unemployment rate than ' + city_2_name
 print(result)
@@ -68,7 +68,7 @@ print(result)
 # if and if elif clauses can use multiple conditions using logical operators AND / OR
 if (city_1_population > city_2_population) & (city_1_population > city_3_population):
     result = city_1_name + ' is bigger than ' + city_2_name + ' and ' + city_3_name
-elif (city_2_population > city_1_population) & (city_2_population > city_3_population):
+elif (city_4_population > city_1_population) & (city_2_population > city_3_population):
     result = city_2_name + ' is bigger than ' + city_1_name + ' and ' + city_3_name
 elif (city_3_population > city_1_population) & (city_3_population > city_2_population):
     result = city_3_name + ' is bigger than ' + city_1_name + ' and ' + city_2_name
