@@ -54,7 +54,6 @@ else:
     result = city_3_name + ' has a higher unemployment rate than ' + city_2_name
 print(result)
 
-
 # - if elif - clauses serve for adding more comparisons to an if clause
 if city_1_unemployment_rate == city_3_unemployment_rate:
     result = city_1_name + ' has the same unemployment rate than ' + city_3_name
@@ -63,7 +62,6 @@ elif city_1_unemployment_rate < city_3_unemployment_rate:
 else:
     result = city_1_name + ' has a higher unemployment rate than ' + city_3_name
 print(result)
-
 
 # if and if elif clauses can use multiple conditions using logical operators AND / OR
 if (city_1_population > city_2_population) & (city_1_population > city_3_population):
@@ -75,7 +73,6 @@ elif (city_3_population > city_1_population) & (city_3_population > city_2_popul
 else:
     result = 'We could not identify which city is bigger'
 print(result)
-
 
 # if, if elif and if else classes can be nested. Indentation plays the main role here
 if city_1_population > city_2_population:
