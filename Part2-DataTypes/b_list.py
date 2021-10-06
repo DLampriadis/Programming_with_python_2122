@@ -22,7 +22,7 @@
 
 # lists
 print("use [] to declare lists")
-my_list = []
+my_list = ['Lefkosia', 'Vienna', 'Venice', 'Berlin', 'Brussels', 'London', 'Amsterdam', 'Barcelona', 'Madrid', 'Athens', 'New York', 'Dubai']
 print(my_list)
 my_list = [1, 2, 7]
 print(my_list)
@@ -47,7 +47,6 @@ print(last_item)
 print(type(last_item))
 print(sub_list, '\n')
 
-
 print("adding lists together")
 list_a = [1, 2]
 list_b = ['Three', 'Four', 'Five']
@@ -56,12 +55,12 @@ print(my_list, '\n')
 
 print("change an item from the list")
 my_list[3] = 4
-print(my_list,'\n')
+print(my_list, '\n')
 
 print("add an item to a list")
 new_item = 'Six'
 my_list.append(new_item)
-print(my_list,'\n')
+print(my_list, '\n')
 # note that append adds the item at the end of the list
 
 print("use reverse() to reverse the order of items in a list")
